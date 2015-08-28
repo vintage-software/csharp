@@ -1,0 +1,193 @@
+<StyleCopSettings Version="105">
+  <GlobalSettings>
+    <IntegerProperty Name="MaxViolationCount">50</IntegerProperty>
+  </GlobalSettings>
+  <Parsers>
+    <Parser ParserId="StyleCop.CSharp.CsParser">
+      <ParserSettings>
+        <BooleanProperty Name="AnalyzeDesignerFiles">False</BooleanProperty>
+        <CollectionProperty Name="GeneratedFileFilters">
+          <Value>WebApiHelp\\.*</Value>
+          <Value>Service\\General\\RestSharpSerializer\.cs</Value>
+          <Value>WebApi\\App_Start\\WebApiConfig\.cs</Value>
+        </CollectionProperty>
+      </ParserSettings>
+    </Parser>
+  </Parsers>
+  <Analyzers>
+    <Analyzer AnalyzerId="StyleCop.CSharp.DocumentationRules">
+      <Rules>
+        <Rule Name="ElementsMustBeDocumented">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileMustHaveHeader">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="EnumerationItemsMustBeDocumented">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.OrderingRules">
+      <Rules>
+        <Rule Name="UsingDirectivesMustBePlacedWithinNamespace">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="SystemUsingDirectivesMustBePlacedBeforeOtherUsingDirectives">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.NamingRules">
+      <Rules>
+        <Rule Name="FieldNamesMustBeginWithLowerCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FieldNamesMustNotBeginWithUnderscore">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementMustBeginWithUpperCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementMustBeginWithLowerCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="InterfaceNamesMustBeginWithI">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ConstFieldNamesMustBeginWithUpperCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="NonPrivateReadonlyFieldsMustBeginWithUpperCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FieldNamesMustNotUseHungarianNotation">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="AccessibleFieldsMustBeginWithUpperCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="VariableNamesMustNotBePrefixed">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FieldNamesMustNotContainUnderscore">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="StaticReadonlyFieldsMustBeginWithUpperCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.MaintainabilityRules">
+      <Rules>
+        <Rule Name="CodeAnalysisSuppressionMustHaveJustification">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.LayoutRules">
+      <Rules>
+        <Rule Name="ClosingCurlyBracketMustBeFollowedByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementsMustBeSeparatedByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementMustNotBeOnSingleLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCopPlus.StyleCopPlusRules">
+      <Rules>
+        <Rule Name="ElementMustNotBeOnSingleLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ClosingCurlyBracketMustBeFollowedByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementsMustBeSeparatedByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings>
+        <StringProperty Name="SP2001_Mode">Spaces:False</StringProperty>
+        <StringProperty Name="SP2100_Limit">190:4</StringProperty>
+        <StringProperty Name="SP2101_Limit">50</StringProperty>
+        <StringProperty Name="SP2102_Limit">50</StringProperty>
+        <StringProperty Name="SP2103_Limit">1000</StringProperty>
+        <StringProperty Name="AdvancedNaming_ProtectedInstanceField">_$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_PrivateInstanceField">_$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_ProtectedStaticField">_$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_PrivateStaticField">_$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_ProtectedConst">$(AA_BB)</StringProperty>
+        <StringProperty Name="AdvancedNaming_PrivateConst">$(AA_BB)</StringProperty>
+        <StringProperty Name="AdvancedNaming_InternalConst">$(AA_BB)</StringProperty>
+        <StringProperty Name="AdvancedNaming_MethodPrivateEventHandler">$(A)$(AaBb):$(AaBb):$(A)$(AaBb)_$(AaBb):$(AaBb)_$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_MethodProtectedEventHandler">$(A)$(AaBb):$(AaBb):$(A)$(AaBb)_$(AaBb):$(AaBb)_$(AaBb)</StringProperty>
+        <StringProperty Name="SP2002_Mode">NotEmpty</StringProperty>
+        <StringProperty Name="AdvancedNaming_ClassNotInternal">$(A)$(AaBb):$(AaBb):$(A)$(AaBb)_$(AaBb):$(AaBb)_$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_ClassInternal">$(A)$(AaBb):$(AaBb):$(A)$(AaBb)_$(AaBb):$(AaBb)_$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_StructInternal">$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_Namespace">$(A)$(AaBb):$(AaBb):$(A)$(AaBb)_$(AaBb):$(AaBb)_$(AaBb):App_$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_MethodGeneral">$(A)$(AaBb):$(AaBb):$(A)$(AaBb)_$(AaBb):$(AaBb)_$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_Property">$(A)$(AaBb):$(AaBb):$(A)$(AaBb)_$(AaBb):$(AaBb)_$(AaBb):$(AaBb)$(A)$(A)$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_MethodTest">$(A)$(AaBb):$(AaBb):$(A)$(AaBb)_$(AaBb):$(AaBb)_$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_Parameter">$(aaBb):$(aaBb)$(A)$(A)$(AaBb)</StringProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+  </Analyzers>
+</StyleCopSettings>
