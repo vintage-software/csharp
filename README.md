@@ -1,2 +1,2 @@
-# Vintage Software CCharp (C#) Style Guide
+# Vintage Software CSharp (C#) Style Guide
 
